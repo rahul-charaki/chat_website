@@ -3,30 +3,31 @@
 This is a MERN (MongoDB, Express, React, Node.js) stack chat application that allows users to send and receive messages in real-time.
 
 ## Project Structure
- 
-. ├── backend 
-  │ ├── .env 
-  │ ├── models 
-  │ │ └── ChatMessage.js 
-  │ ├── package.json 
-  │ └── server.js 
-. ├── frontend 
-  │ ├── .gitignore 
-  │ ├── package.json 
-  │ ├── public 
-  │ │ ├── index.html 
-  │ │ ├── manifest.json 
-  │ │ └── robots.txt 
-  │ └── src 
-  │ ├── App.css 
-  │ ├── App.js 
-  │ ├── App.test.js 
-  │ ├── ChatRoom.js 
-  │ ├── index.css 
-  │ ├── index.js 
-  │ ├── reportWebVitals.js 
-  │ └── setupTests.js 
-├── .gitignore
+```sh
+├── backend/
+│   ├── .env                # Environment variables (MongoDB URI, etc.)
+│   ├── models/
+│   │   └── ChatMessage.js   # Mongoose schema for chat messages
+│   ├── package.json         # Backend dependencies
+│   └── server.js            # Express server setup
+├── frontend/
+│   ├── .gitignore           # Git ignore file for frontend
+│   ├── package.json         # Frontend dependencies
+│   ├── public/
+│   │   ├── index.html       # HTML template for the React app
+│   │   ├── manifest.json    # Web app manifest
+│   │   └── robots.txt       # Robots.txt for SEO
+│   └── src/
+│       ├── App.css          # Main CSS file for App
+│       ├── App.js           # Main component for React app
+│       ├── App.test.js      # Test file for the App component
+│       ├── ChatRoom.js      # Chat room component
+│       ├── index.css        # Global CSS for the React app
+│       ├── index.js         # Entry point for React app
+│       ├── reportWebVitals.js # Performance reporting setup for React
+│       └── setupTests.js    # Test setup file
+├── .gitignore               # Global Git ignore file (for root)
+```
 
 
 ## Backend
